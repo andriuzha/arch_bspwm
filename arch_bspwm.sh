@@ -45,7 +45,7 @@ sleep 2s
 echo "Sistema actualizado"
 echo "ZSH habilitado"
 echo "Instalar apps complementarias"
-sudo pacman -S kitty zsh neofetch mousepad chromium mpv cmatrix ranger xorg-xbacklight gpick light maim bmon nautilus htop feh lxappearance nitrogen geany dmenu networkmanager xfconf xsettingsd xfce4-power-manager zenity zathura zathura-pdf-mupdf git --noconfirm &&
+sudo pacman -S kitty zsh neofetch mousepad firefox mpv cmatrix ranger xorg-xbacklight gpick light maim bmon nautilus htop feh lxappearance nitrogen geany dmenu networkmanager xfconf xsettingsd xfce4-power-manager zenity zathura zathura-pdf-mupdf git --noconfirm &&
 yay -S i3lock-color ttf-ms-fonts cava nm-tray networkmanager-demnu-git --noconfirm &&
 sudo systemctl disable mpd &&
 clear &&
